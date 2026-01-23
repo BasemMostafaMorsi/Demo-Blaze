@@ -1,0 +1,28 @@
+[DEBUG] - [21-01-2026 05:22:08] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Basem Mustafa\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[DEBUG] - [21-01-2026 05:23:51] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Basem Mustafa\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[DEBUG] - [21-01-2026 05:29:20] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Basem Mustafa\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.FileUtils] - File deleted: C:\Users\Basem Mustafa\Desktop\projects tester\ProjectSelenium\DemoBlazeProject\test-output\Logs\logs.log
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.listeners.TestNGListeners] - Directories created
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [21-01-2026 05:29:21] [main] [com.demoBlaze.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [21-01-2026 05:29:23] [main] [com.demoBlaze.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [21-01-2026 05:29:23] [main] [com.demoBlaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [21-01-2026 05:29:23] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Basem Mustafa\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [21-01-2026 05:29:23] [main] [com.demoBlaze.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [21-01-2026 05:29:23] [main] [com.demoBlaze.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [21-01-2026 05:29:26] [main] [com.demoBlaze.utils.actions.BrowserActions] - Navigated to URL: https://www.demoblaze.com/
+[INFO] - [21-01-2026 05:29:27] [main] [com.demoBlaze.listeners.TestNGListeners] - Test Case testCategories started
+[DEBUG] - [21-01-2026 05:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['nameCategory']
+[INFO] - [21-01-2026 05:29:27] [main] [com.demoBlaze.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='list-group']//a[.='Laptops']
+[DEBUG] - [21-01-2026 05:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['nameLab']
+[INFO] - [21-01-2026 05:29:28] [main] [com.demoBlaze.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='card h-100']//a[.='Sony vaio i5']
+[INFO] - [21-01-2026 05:29:29] [main] [com.demoBlaze.utils.actions.ElementActions] - Clicked on element: By.cssSelector: #tbodyid > div.row > div > a
+[INFO] - [21-01-2026 05:29:30] [main] [com.demoBlaze.utils.actions.AlertActions] - Alert text: Product added
