@@ -1,8 +1,7 @@
-package com.automationexercices.tests.ui;
+package com.demoblaze.tests.ui;
 
-import com.automationexercices.tests.BaseTest;
+import com.demoblaze.tests.BaseTest;
 import com.demoBlaze.drivers.GUIDriver;
-import com.demoBlaze.pages.CategoriesPage;
 import com.demoBlaze.pages.components.NavigationBarComponents;
 import com.demoBlaze.utils.actions.AlertActions;
 import com.demoBlaze.utils.dataReader.JsonReader;
@@ -11,21 +10,22 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class CategoriesTest extends BaseTest {
+public class LoginTest extends BaseTest {
     @Test
-    public void testCategories(){
-        new CategoriesPage(driver)
-                .clickOnCategory(testData.getJsonData("nameCategory"))
-                .clickOnProduct(testData.getJsonData("nameLab"))
-                .clickOnAddToCartButton();
-        alertActions.acceptAlert();
+    public void login(){
+        new NavigationBarComponents(driver)
+                .clickOnLoginButton()
+                .login(
+                        testData.getJsonData("userName"),
+                        testData.getJsonData("password")
+                ).clickLoginButton().clickCloseButton();
+
 
     }
 
-
     @BeforeClass
     protected void preCondition() {
-        testData = new JsonReader("signUp-data");
+        testData = new JsonReader("login-data");
     }
     @BeforeMethod
     public void setUp() {

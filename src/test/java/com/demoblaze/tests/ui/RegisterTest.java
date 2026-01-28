@@ -1,6 +1,6 @@
-package com.automationexercices.tests.ui;
+package com.demoblaze.tests.ui;
 
-import com.automationexercices.tests.BaseTest;
+import com.demoblaze.tests.BaseTest;
 import com.demoBlaze.drivers.GUIDriver;
 import com.demoBlaze.pages.components.NavigationBarComponents;
 import com.demoBlaze.utils.actions.AlertActions;
@@ -10,22 +10,24 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTest extends BaseTest {
+public class RegisterTest extends BaseTest {
+
+
     @Test
-    public void login(){
+    public void validSignUpRegister(){
         new NavigationBarComponents(driver)
-                .clickOnLoginButton()
-                .login(
-                        testData.getJsonData("userName"),
-                        testData.getJsonData("password")
-                ).clickLoginButton().clickCloseButton();
+                .clickOnSignUpButton()
+                .enterUserName(testData.getJsonData("name"))
+                .enterPassword(testData.getJsonData("password"))
+                .clickSignUpButton().clickOnCloseButton();
+            alertActions.acceptAlert();
 
 
     }
 
     @BeforeClass
     protected void preCondition() {
-        testData = new JsonReader("login-data");
+        testData = new JsonReader("signUp-data");
     }
     @BeforeMethod
     public void setUp() {

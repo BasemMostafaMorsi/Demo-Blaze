@@ -1,6 +1,6 @@
-package com.automationexercices.tests.ui;
+package com.demoblaze.tests.ui;
 
-import com.automationexercices.tests.BaseTest;
+import com.demoblaze.tests.BaseTest;
 import com.demoBlaze.drivers.GUIDriver;
 import com.demoBlaze.pages.ProductsPage;
 import com.demoBlaze.pages.components.NavigationBarComponents;

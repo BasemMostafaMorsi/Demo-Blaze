@@ -1,4 +1,4 @@
-package com.automationexercices.tests;
+package com.demoblaze.tests;
 
 
 import com.demoBlaze.drivers.GUIDriver;
