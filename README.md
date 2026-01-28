@@ -223,4 +223,13 @@
     ├── encodings.xml
     └── misc.xml (200 tokens)
 ├── .gitignore (200 tokens)
-└── pom.xml (1800 tokens)
+└── pom.xml 
+## Run the tests
+mvn test 
+## 👨‍💻 Author
+**Basem Mostafa**
+
+**junior Automation Engineer**
+
+[Gmail ](basem.mostafa.morsy@gmail.com)
+
